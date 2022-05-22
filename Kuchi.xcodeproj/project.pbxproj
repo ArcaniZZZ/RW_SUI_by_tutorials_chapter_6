@@ -27,6 +27,16 @@
 		57EF341424E89F92004ABEB2 /* KuchiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EF340024E89F91004ABEB2 /* KuchiApp.swift */; };
 		57F8DD6926EEC01300153B9F /* HorizontallyAlignedLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F8DD6826EEC01300153B9F /* HorizontallyAlignedLabelStyle.swift */; };
 		57F8DD6A26EEC01300153B9F /* HorizontallyAlignedLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F8DD6826EEC01300153B9F /* HorizontallyAlignedLabelStyle.swift */; };
+		EACD1941283AA772008CDB17 /* WelcomeBackgroundImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACD1940283AA772008CDB17 /* WelcomeBackgroundImage.swift */; };
+		EACD1942283AA772008CDB17 /* WelcomeBackgroundImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACD1940283AA772008CDB17 /* WelcomeBackgroundImage.swift */; };
+		EACD1944283AA85A008CDB17 /* LogoImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACD1943283AA85A008CDB17 /* LogoImage.swift */; };
+		EACD1945283AA85A008CDB17 /* LogoImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACD1943283AA85A008CDB17 /* LogoImage.swift */; };
+		EACD1947283AA88B008CDB17 /* WelcomeMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACD1946283AA88B008CDB17 /* WelcomeMessageView.swift */; };
+		EACD1948283AA88B008CDB17 /* WelcomeMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACD1946283AA88B008CDB17 /* WelcomeMessageView.swift */; };
+		EACD194A283AA956008CDB17 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACD1949283AA956008CDB17 /* RegisterView.swift */; };
+		EACD194B283AA956008CDB17 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACD1949283AA956008CDB17 /* RegisterView.swift */; };
+		EACD194D283AB110008CDB17 /* BorderedViewModifier .swift in Sources */ = {isa = PBXBuildFile; fileRef = EACD194C283AB110008CDB17 /* BorderedViewModifier .swift */; };
+		EACD194E283AB110008CDB17 /* BorderedViewModifier .swift in Sources */ = {isa = PBXBuildFile; fileRef = EACD194C283AB110008CDB17 /* BorderedViewModifier .swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +55,11 @@
 		57EF341124E89F92004ABEB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57EF341224E89F92004ABEB2 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		57F8DD6826EEC01300153B9F /* HorizontallyAlignedLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontallyAlignedLabelStyle.swift; sourceTree = "<group>"; };
+		EACD1940283AA772008CDB17 /* WelcomeBackgroundImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeBackgroundImage.swift; sourceTree = "<group>"; };
+		EACD1943283AA85A008CDB17 /* LogoImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoImage.swift; sourceTree = "<group>"; };
+		EACD1946283AA88B008CDB17 /* WelcomeMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeMessageView.swift; sourceTree = "<group>"; };
+		EACD1949283AA956008CDB17 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		EACD194C283AB110008CDB17 /* BorderedViewModifier .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BorderedViewModifier .swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +113,7 @@
 			children = (
 				579CB98A26EA1BE30009C09F /* WelcomeView.swift */,
 				57F8DD6826EEC01300153B9F /* HorizontallyAlignedLabelStyle.swift */,
+				EACD1949283AA956008CDB17 /* RegisterView.swift */,
 			);
 			path = Welcome;
 			sourceTree = "<group>";
@@ -115,6 +131,7 @@
 		57EF33FF24E89F91004ABEB2 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				EACD193F283AA73E008CDB17 /* Components */,
 				5712CCA826F68A8A000243C2 /* Profile */,
 				579CB98926EA18AA0009C09F /* Welcome */,
 				57578FA724E9D943003465A4 /* HomeView.swift */,
@@ -148,6 +165,17 @@
 				57EF341224E89F92004ABEB2 /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		EACD193F283AA73E008CDB17 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				EACD1940283AA772008CDB17 /* WelcomeBackgroundImage.swift */,
+				EACD1943283AA85A008CDB17 /* LogoImage.swift */,
+				EACD1946283AA88B008CDB17 /* WelcomeMessageView.swift */,
+				EACD194C283AB110008CDB17 /* BorderedViewModifier .swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,12 +279,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EACD194A283AA956008CDB17 /* RegisterView.swift in Sources */,
 				57EF341324E89F92004ABEB2 /* KuchiApp.swift in Sources */,
 				5712CCAE26F68A8A000243C2 /* Profile.swift in Sources */,
+				EACD194D283AB110008CDB17 /* BorderedViewModifier .swift in Sources */,
 				579CB98B26EA1BE30009C09F /* WelcomeView.swift in Sources */,
+				EACD1947283AA88B008CDB17 /* WelcomeMessageView.swift in Sources */,
+				EACD1944283AA85A008CDB17 /* LogoImage.swift in Sources */,
 				57F8DD6926EEC01300153B9F /* HorizontallyAlignedLabelStyle.swift in Sources */,
 				5712CCB026F68A8A000243C2 /* Settings.swift in Sources */,
 				5712CCAC26F68A8A000243C2 /* UserManager.swift in Sources */,
+				EACD1941283AA772008CDB17 /* WelcomeBackgroundImage.swift in Sources */,
 				57578FDE24E9D943003465A4 /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,12 +298,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EACD194B283AA956008CDB17 /* RegisterView.swift in Sources */,
 				57EF341424E89F92004ABEB2 /* KuchiApp.swift in Sources */,
 				5712CCAF26F68A8A000243C2 /* Profile.swift in Sources */,
+				EACD194E283AB110008CDB17 /* BorderedViewModifier .swift in Sources */,
 				579CB98C26EA1BE30009C09F /* WelcomeView.swift in Sources */,
+				EACD1948283AA88B008CDB17 /* WelcomeMessageView.swift in Sources */,
+				EACD1945283AA85A008CDB17 /* LogoImage.swift in Sources */,
 				57F8DD6A26EEC01300153B9F /* HorizontallyAlignedLabelStyle.swift in Sources */,
 				5712CCB126F68A8A000243C2 /* Settings.swift in Sources */,
 				5712CCAD26F68A8A000243C2 /* UserManager.swift in Sources */,
+				EACD1942283AA772008CDB17 /* WelcomeBackgroundImage.swift in Sources */,
 				57578FDF24E9D943003465A4 /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
